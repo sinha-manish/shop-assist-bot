@@ -1,0 +1,327 @@
+{
+  "metrics": {
+    "total_queries": 30,
+    "successful_queries": 26,
+    "failed_queries": 4,
+    "avg_response_time": 8.429014372825623,
+    "query_patterns": {
+      "color_search": 4,
+      "general": 17,
+      "size_search": 8,
+      "pricing": 1
+    },
+    "intent_distribution": {
+      "search_product": 10,
+      "Search": 16,
+      "find_deal": 2,
+      "celebrity_query": 1,
+      "other_brand_query": 1
+    },
+    "response_times": [
+      6.1964850425720215,
+      5.648210763931274,
+      5.49518084526062,
+      5.2023255825042725,
+      5.442273378372192,
+      5.052883625030518,
+      5.253438234329224,
+      4.983210802078247,
+      5.204621076583862,
+      5.526326417922974,
+      8.708860397338867,
+      9.389274597167969,
+      5.358426332473755,
+      5.474971532821655,
+      6.80268406867981,
+      6.891518592834473,
+      7.31560754776001,
+      10.213969469070435,
+      5.630974531173706,
+      6.663343191146851,
+      8.338383197784424,
+      18.851052284240723,
+      21.346449375152588,
+      12.3152015209198,
+      20.507601022720337,
+      14.147093296051025,
+      4.728437900543213,
+      13.391746520996094,
+      5.536479234695435,
+      7.253400802612305
+    ],
+    "cache_hits": 0,
+    "cache_misses": 30
+  },
+  "recent_queries": [
+    {
+      "timestamp": "2025-12-22T11:47:41.270288",
+      "query": "Show me red shirts for men",
+      "intent": "search_product",
+      "response_time": 6.1964850425720215,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:48:27.483064",
+      "query": "Show me black shirts for men",
+      "intent": "search_product",
+      "response_time": 5.648210763931274,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:49:32.715117",
+      "query": "Black formal shirts for men in size L",
+      "intent": "Search",
+      "response_time": 5.49518084526062,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:50:55.046252",
+      "query": "Black formal shirts for men in size S",
+      "intent": "search_product",
+      "response_time": 5.2023255825042725,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:51:07.638572",
+      "query": "Black formal shirts for men",
+      "intent": "search_product",
+      "response_time": 5.442273378372192,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:51:34.375608",
+      "query": "Black formal shirts for men in size L",
+      "intent": "Search",
+      "response_time": 5.052883625030518,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:52:25.361137",
+      "query": "Black formal shirts for men",
+      "intent": "search_product",
+      "response_time": 5.253438234329224,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:52:45.226232",
+      "query": "Black jeans for men in size L",
+      "intent": "Search",
+      "response_time": 4.983210802078247,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:53:18.814270",
+      "query": "Black jeans for men in size S",
+      "intent": "Search",
+      "response_time": 5.204621076583862,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-22T11:54:25.887019",
+      "query": "Show me products with discount",
+      "intent": "find_deal",
+      "response_time": 5.526326417922974,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:02:57.331600",
+      "query": "balck shirt for men",
+      "intent": "search_product",
+      "response_time": 8.708860397338867,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:03:34.404707",
+      "query": "black shirt for men",
+      "intent": "search_product",
+      "response_time": 9.389274597167969,
+      "success": true,
+      "num_results": 1,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:03:59.541290",
+      "query": "women dress under 2000",
+      "intent": "Search",
+      "response_time": 5.358426332473755,
+      "success": false,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:24:53.601542",
+      "query": "women dress under 2000",
+      "intent": "Search",
+      "response_time": 5.474971532821655,
+      "success": false,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:25:31.065540",
+      "query": "girl ress",
+      "intent": "search_product",
+      "response_time": 6.80268406867981,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:26:02.708013",
+      "query": "women dress",
+      "intent": "Search",
+      "response_time": 6.891518592834473,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:26:45.002324",
+      "query": "women red dress",
+      "intent": "Search",
+      "response_time": 7.31560754776001,
+      "success": true,
+      "num_results": 2,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:29:10.615797",
+      "query": "women red dress under 2000",
+      "intent": "Search",
+      "response_time": 10.213969469070435,
+      "success": true,
+      "num_results": 1,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:32:49.345262",
+      "query": "kids shirt",
+      "intent": "search_product",
+      "response_time": 5.630974531173706,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2025-12-24T13:35:27.863235",
+      "query": "Show me products on sale",
+      "intent": "find_deal",
+      "response_time": 6.663343191146851,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:05:02.275790",
+      "query": "Do you have size M formal blazers for women?",
+      "intent": "Search",
+      "response_time": 8.338383197784424,
+      "success": false,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:07:45.614770",
+      "query": "Do you have formal blazer for women?",
+      "intent": "Search",
+      "response_time": 18.851052284240723,
+      "success": false,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:08:42.398230",
+      "query": "Do you have blazer for women?",
+      "intent": "Search",
+      "response_time": 21.346449375152588,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:09:29.029972",
+      "query": "Do you have size M blazers for women?",
+      "intent": "Search",
+      "response_time": 12.3152015209198,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:11:45.018115",
+      "query": "Show me blue shirts for men",
+      "intent": "search_product",
+      "response_time": 20.507601022720337,
+      "success": true,
+      "num_results": 3,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:12:15.634574",
+      "query": "Women\u2019s formal dress under 2000",
+      "intent": "Search",
+      "response_time": 14.147093296051025,
+      "success": true,
+      "num_results": 1,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:12:25.773249",
+      "query": "Women\u2019s dress under 2000",
+      "intent": "Search",
+      "response_time": 4.728437900543213,
+      "success": true,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:13:02.022219",
+      "query": "Black jeans for men in size S",
+      "intent": "Search",
+      "response_time": 13.391746520996094,
+      "success": true,
+      "num_results": 2,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:13:32.536435",
+      "query": "Shirts like the one Shah Rukh Khan wears",
+      "intent": "celebrity_query",
+      "response_time": 5.536479234695435,
+      "success": true,
+      "num_results": 0,
+      "cache_hit": false
+    },
+    {
+      "timestamp": "2026-01-09T08:14:00.594440",
+      "query": "Show me Nike shoes",
+      "intent": "other_brand_query",
+      "response_time": 7.253400802612305,
+      "success": true,
+      "num_results": 0,
+      "cache_hit": false
+    }
+  ]
+}

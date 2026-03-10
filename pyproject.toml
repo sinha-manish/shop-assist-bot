@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shop-assist-bot"
+version = "0.1.0"
+description = "A proprietary shopping chatbot product"
+authors = [
+    {name = "Manish Sinha", email = "sinhamanish107@gmail.com"}
+]
+license = {text = "Proprietary"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Private :: Do Not Upload",
+]
+
+# Core dependencies (The bare essentials to run the bot)
+dependencies = [
+    "Flask==3.0.0",
+    "Flask-SocketIO==5.3.6",
+    "python-socketio==5.10.0",
+    "requests==2.31.0",
+    "chromadb==0.4.22",
+   "pandas>=2.2.2",         # Updated for Python 3.12/3.13 compatibility
+    "numpy>=1.26.4",         # Updated to the last 1.x stable release
+    "scikit-learn>=1.4.0",   # Updated
+    "rank-bm25==0.2.2",
+    "google-generativeai==0.3.2",
+    "PyYAML==6.0.1",
+    "python-dotenv==1.0.0",
+]
+
+# Optional "Performance" dependencies (The heavy stuff)
+[project.optional-dependencies]
+performance = [
+    "sentence-transformers>=2.2.0",
+    "transformers>=4.30.0",
+    "scipy>=1.10.0",
+    "huggingface-hub>=0.16.0",
+    "safetensors>=0.3.0",
+]
+# Note: Torch (CPU) is best installed via the direct URL as you noted
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "name": "Search"
+    },
+    {
+      "name": "CheckAvailability"
+    },
+    {
+      "name": "FindDeal"
+    },
+    {
+      "name": "FindStoreStock"
+    },
+    {
+      "name": "FestiveFilter"
+    },
+    {
+      "name": "TrendingItems"
+    },
+    {
+      "name": "NewArrivals"
+    },
+    {
+      "name": "Bestsellers"
+    },
+    {
+      "name": "PriceInquiry"
+    },
+    {
+      "name": "StoreInfo"
+    },
+    {
+      "name": "CompareProducts"
+    },
+    {
+      "name": "GeneralQuery"
+    }
+  ]
+}

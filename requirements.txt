@@ -1,0 +1,61 @@
+# Core Web Framework
+Flask==3.0.0
+Flask-SocketIO==5.3.6
+python-socketio==5.10.0
+# eventlet is optional - SocketIO can auto-detect or use threading
+# eventlet==0.33.3  # Only needed if you want async mode (not required for CPU instances)
+
+# HTTP Requests
+requests==2.31.0
+# aiohttp only used in ingest_clu.py for async ingestion (optional for runtime)
+# aiohttp==3.9.1  # Only needed for async ingestion scripts
+
+# Vector Database
+chromadb==1.5.4
+
+# Data Processing
+pandas==2.1.4
+numpy==1.26.2
+scikit-learn==1.3.2
+rank-bm25==0.2.2
+
+# Google AI
+google-generativeai==0.3.2
+
+# Image Processing (only needed if using search_by_image function)
+# Pillow==10.1.0  # Only needed for image search feature (not used in main app)
+
+# Configuration
+PyYAML==6.0.1
+
+# Utilities
+python-dotenv==1.0.0
+
+# Performance-Enhancing Dependencies (CPU-Only) - OPTIONAL
+# ==============================================
+# These packages significantly improve search quality but add ~2-3GB to image size
+# Optimized for CPU servers (smaller, no GPU dependencies)
+#
+# Install with: pip install -r requirements.performance.txt
+#
+# For GPU servers, see INSTALL_PERFORMANCE.md for GPU installation options
+
+# Re-ranking (20-30% improvement in search quality) - OPTIONAL
+# Install sentence-transformers without dependencies first to control torch version
+sentence-transformers>=2.2.0
+
+# CPU-only PyTorch (smaller, optimized for CPU servers) - OPTIONAL
+# Note: Install these using the command in INSTALL_PERFORMANCE.md for proper CPU-only installation:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# 
+# For requirements.txt compatibility, we list them here but you may need to install separately:
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Required dependencies for sentence-transformers - OPTIONAL
+transformers>=4.30.0
+scipy>=1.10.0
+huggingface-hub>=0.16.0
+safetensors>=0.3.0
